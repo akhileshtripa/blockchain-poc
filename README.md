@@ -31,7 +31,7 @@ Open http://localhost:8080/ in browser and try it from web page. Basic actions a
 - Delete an agent from the network
 - Mine a new block and broadcast to the network. A color scheme is used to mark different blocks created by different agents.
 
-![block chain poc](https://raw.github.com/akhileshtripa/blockchain-poc/master/image/web.PNG)
+![block chain poc](https://github.com/akhileshtripa/blockchain-poc/blob/master/image/web.PNG)
 
 ### Use rest interface
 Use curl directly from command line to interact with the server:
@@ -73,10 +73,3 @@ curl http://localhost:8080/agent/all
 curl -X DELETE http://localhost:8080/agent/all
 ```
 
-## Change log
-- [x] 20170902 Let newly added agent sync the latest blockchain from peers.
-- [x] 20170818 Add a web interface.
-- [x] 20170807 Server side code base with rest interface.
-
-
-This project is inspired by [naivechain](https://github.com/lhartikk/naivechain). 
